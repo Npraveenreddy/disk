@@ -10,5 +10,4 @@ if [ $USE -gt $THRESHOLD1 ]; then
   echo "60% Percent Used: $USE" | mail -s "Disk Usage Rate " -r narayana.praveen143@gmail.com $EMAIL
 elif [ $USE -gt $THRESHOLD2 ]; then
   echo "60% Percent Used: $USE" | mail -s "Disk Usage Rate " -r narayana.praveen143@gmail.com $EMAIL
-
 fi
